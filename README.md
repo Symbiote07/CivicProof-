@@ -54,11 +54,11 @@ CivicProof replaces manual checks with an **Automated Trust Loop**:
 
 ### 1. The Command Center Dashboard
 *Real-time metrics, geospatial booth mapping, and task tracking.*
-![CivicProof Dashboard](Screenshot%202026-02-16%20134807.jpg)
+![CivicProof Dashboard](Screenshot%202026-02-16%20134807.png)
 
 ### 2. Live Activity Map
 *Monitoring task statuses (Pending, Verified, Rejected) across different city zones.*
-![Activity Map](Screenshot%202026-02-16%20134822.jpg)
+![Activity Map](Screenshot%202026-02-16%20134822.png)
 
 ### 3. AI Verification Override 
 *Testing the AI engine directly from the portal.*
@@ -86,6 +86,7 @@ CivicProof replaces manual checks with an **Automated Trust Loop**:
    ```bash
    git clone [https://github.com/yourusername/CivicProof.git](https://github.com/yourusername/CivicProof.git)
    cd CivicProof
+   ```
    
 2.  **Install dependencies:**
 
@@ -142,7 +143,6 @@ Feel free to **Fork** the repository and submit a **Pull Request**!
 To make sure this renders perfectly on GitHub, double-check these steps when uploading:
 
 1.  **Root Directory Placement:** Ensure your `README.md`, `main.py`, `dashboard.py`, `ai_engine.py`, `seed.py`, and `requirements.txt` are all sitting directly in the main folder of your repository.
-2.  **Image Placement:** Because of how the markdown is written above, the images and GIFs (`Screenshot 2026-02-16 134807.jpg`, `EditCivicPGIF.gif`, etc.) must be uploaded to the **exact same main folder** as the README. If you put them in an "images" folder, the links will break unless you update the markdown to say `images/EditCivicPGIF.gif`.
+2.  **Image Placement:** Because of how the markdown is written above, the images and GIFs (`Screenshot 2026-02-16 134807.png`, `EditCivicPGIF.gif`, etc.) must be uploaded to the **exact same main folder** as the README. If you put them in an "images" folder, the links will break unless you update the markdown to say `images/EditCivicPGIF.gif`.
 3.  **The `.gitignore` File:** Manually create a file named exactly `.gitignore` (with the dot) in your GitHub repo and add `*.db` and `__pycache__/` to it. This shows recruiters you know how to keep repositories clean of unnecessary system files.
 4.  **Update the URL:** Don't forget to replace `https://your-live-url-goes-here.com` at the top of the README once you eventually host it online (like on Render or Streamlit Community Cloud).
-
